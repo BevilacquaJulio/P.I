@@ -13,18 +13,24 @@ body{
 }
 
 .container{
-    border: rgb(251, 229, 100) 1.5px solid;
+    border: rgb(245, 139, 0) 2.5px solid;
     height: 720px;
     width: 1100px;
     display: flex;
     justify-content: center; 
     border-radius: 10px;
+    backdrop-filter: blur(5px);      /* Aplica o desfoque atrás da janela */
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.container:hover{
+    
 }
 
 .janela {
-    border: rgb(251, 229, 100) 1px solid;
     position: absolute;
     width: inherit; /*Pega a width do elemento pai (.container) */
     text-align: center;
+    
 }
 
