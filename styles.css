@@ -13,14 +13,18 @@ body{
 }
 
 .container{
-    border: red 1px solid;
-    height: 500px;
-    width: 400px;
+    border: rgb(251, 229, 100) 1.5px solid;
+    height: 720px;
+    width: 1100px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    border-radius: 10px;
 }
 
-.janela h1{
-    
+.janela {
+    border: rgb(251, 229, 100) 1px solid;
+    position: absolute;
+    width: inherit; /*Pega a width do elemento pai (.container) */
+    text-align: center;
 }
 
