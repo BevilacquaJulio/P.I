@@ -4,7 +4,23 @@
 }
 
 body{
+    height: 99.5vh;
     background-image: url(fundo_tela.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: red 1px solid;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.janela h1{
     
 }
+
