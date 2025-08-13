@@ -23,9 +23,6 @@ body{
     -webkit-backdrop-filter: blur(10px);
 }
 
-.container:hover{
-    
-}
 
 .janela {
     position: absolute;
