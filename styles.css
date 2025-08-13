@@ -14,20 +14,44 @@ body{
 
 .container{
     border: rgb(245, 139, 0) 2.5px solid;
-    height: 720px;
+    height: 620px;
     width: 1100px;
     display: flex;
     justify-content: center; 
     border-radius: 10px;
     backdrop-filter: blur(5px);      /* Aplica o desfoque atrás da janela */
     -webkit-backdrop-filter: blur(10px);
+    color: white;
 }
 
 
-.janela {
+.header {
     position: absolute;
     width: inherit; /*Pega a width do elemento pai (.container) */
     text-align: center;
-    
+    color: white;
 }
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(245, 139, 0)
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(245, 139, 0);
+}
+
+.campo label{
+    margin-right: 5px;
+}
+
+
+
 
